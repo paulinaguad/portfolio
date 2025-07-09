@@ -1,0 +1,61 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Dosis;
+    background-color: #fff9ef;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    color: #d2886b ;
+    font-size: 4em;
+    padding-bottom: 4%;
+    text-shadow: 0 4px 4px rgba(83, 83, 83, 0.267);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    color: #b25d3b;
+    font-size: 2em;
+    text-shadow: 0 4px 4px rgba(189, 189, 189, 0.603);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+}
+
+.myWork {
+    text-decoration: none;
+    font-family: Dosis;
+    padding: 100px 20px;
+    font-size: 1.5em;
+    padding: 2%;
+    background-color: #fff9ef;
+    color: #984631;
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.27);
+}
+
+.myWork:hover {
+    background-color: #b95f48;
+    color:#fff9ef;
+}
+
+
